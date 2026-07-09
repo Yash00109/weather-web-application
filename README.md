@@ -1,1 +1,1 @@
-Weather web-application on HTML, CSS and Js
+Weather web-application using HTML, CSS and Js
