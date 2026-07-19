@@ -12,18 +12,18 @@ A simple browser-based weather application built with vanilla HTML, CSS, and Jav
 
 ## Tech Stack
 
-- **HTML5** — page structure (`Task5.html`)
-- **CSS3** — styling, including `backdrop-filter` blur effects and flex-based layout (`Task5.css`)
-- **JavaScript (Vanilla, ES6)** — API calls and DOM manipulation (`Task5.js`)
+- **HTML5** — page structure (`weather_app.html`)
+- **CSS3** — styling, including `backdrop-filter` blur effects and flex-based layout (`weather_app.css`)
+- **JavaScript (Vanilla, ES6)** — API calls and DOM manipulation (`weather_app.js`)
 - **[OpenWeatherMap API](https://openweathermap.org/api)** — current weather and 5-day/3-hour forecast data
 
 ## File Structure
 
 ```
 weather-web-application/
-├── Task5.html      # Main HTML structure
-├── Task5.css       # Styling for the weather card and hourly forecast
-├── Task5.js        # Weather-fetching logic and DOM rendering
+├── weather_app.html      # Main HTML structure
+├── weather_app.css       # Styling for the weather card and hourly forecast
+├── weather_app.js        # Weather-fetching logic and DOM rendering
 └── README.md
 ```
 
@@ -35,7 +35,7 @@ You'll need a free API key from [OpenWeatherMap](https://openweathermap.org/api)
 
 1. Create an account at [openweathermap.org](https://home.openweathermap.org/users/sign_up).
 2. Generate an API key from your account dashboard.
-3. Open `Task5.js` and replace the placeholder on line 2:
+3. Open `weather_app.js` and replace the placeholder on line 2:
 
    ```js
    const apiKey = 'YOUR-API-KEY-HERE';
@@ -50,7 +50,7 @@ You'll need a free API key from [OpenWeatherMap](https://openweathermap.org/api)
 No build tools or installation required:
 
 1. Clone or download this repository.
-2. Open `Task5.html` directly in your browser (double-click, or right-click → "Open with" your browser of choice).
+2. Open `weather_app.html` directly in your browser (double-click, or right-click → "Open with" your browser of choice).
 3. Enter a city name and click **Search**.
 
 ## How It Works
